@@ -1,5 +1,5 @@
 module.exports = {
     env: {
-      secret: 'ssssweeet',
+      SECRET_KEY: process.env.SECRET_KEY,
     },
   }
